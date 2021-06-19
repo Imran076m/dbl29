@@ -190,7 +190,7 @@ def example():
     ]
 
     p1 = figure(x_range=ranges, plot_height=300, plot_width=750, toolbar_location='below', 
-                title="Frequencey of messages by Date", tools=tool_list, 
+                title="Frequency of messages by Date", tools=tool_list, 
                 active_scroll='wheel_zoom', tooltips=TOOLTIPS)
     p1.vbar(x='date', top='count', width=0.9, source=source)
     p1.toolbar.autohide = True
@@ -388,7 +388,7 @@ def newsample():
     ]
 
     p1 = figure(x_range=ranges, plot_height=300, plot_width=750, toolbar_location='below', 
-                title="Frequencey of messages by Date", tools=tool_list, 
+                title="Frequency of messages by Date", tools=tool_list, 
                 active_scroll='wheel_zoom', tooltips=TOOLTIPS)
     p1.vbar(x='date', top='count', width=0.9, source=source)
     p1.toolbar.autohide = True
