@@ -151,7 +151,7 @@ def example():
                 x_range=Range1d(-1, 1), y_range=Range1d(-1, 1), plot_width = 700)
 
 
-    p.title.text = "Graph for Sentiments between Reciever and Sender"
+    p.title.text = "Graph for Sentiments between Receiver and Sender"
     p.toolbar.autohide = True
 
 
@@ -349,7 +349,7 @@ def newsample():
                 x_range=Range1d(-1, 1), y_range=Range1d(-1, 1),plot_width=700)
 
 
-    p.title.text = "Graph for Sentiments between Reciever and Sender"
+    p.title.text = "Graph for Sentiments between Receiver and Sender"
     p.toolbar.autohide = True
 
 
