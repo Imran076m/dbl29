@@ -1,0 +1,80 @@
+  
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Interactive Visualisation Application</title>
+    <link rel="shortcut icon" type="image/jpg" href="./static/images/icon.png"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+</head>
+
+  <body>
+    <header>
+      <h1 class="title">Interactive Visualisation Application</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/sources">Sources</a></li>
+          <li><a href="/example">Example</a></li>
+          <li><a href="/newsample">New sample</a></li>
+          <li><a href="/upload">Upload</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="home-back">
+      <h1>About Us</h1>
+    </section>
+
+    <div class="container">
+      <section class="about">
+        <div class="about-box">
+          <h1>A Brief Introduction</h1>
+          
+          <p>
+            <h3><strong>Hello and welcome to our site!</strong></h3> 
+            <br>
+            This is an interactive
+            web-application revolving around visualisations and data
+            exploration. We created this product during one of our courses, studying Computer Science and Engineering at Eindhoven University of Technology. The project was done following the scrum-method. We learned a lot from the process of building the product from scratch and hopefully this valuable experience will assist us with our futures endeavours.
+            <br>
+            <br>
+            <h3><strong>Our group consists of 6 group members:</strong></h3>
+ 
+            <img src="/static/images/Movies & TV 24.06.2021 г. 13_54_49 (2).png" alt="vis1" />
+            <ul>
+              <li><strong>Imran Makan</strong> - ID: 1577735, Python Developer, Flask, Website Hosting</li>
+              <li><strong>Andrei Gherghe</strong> - ID: 1554522, Python Developer, Visualisations</li>
+              <li><strong>Rafael Roane</strong> - ID: 1573578, Python Developer</li>
+              <li><strong>Zdravko Petrov</strong> - ID: 1554999, HTML + CSS Developer, Web-page Developer</li>      
+              <li><strong>Enting Jin</strong> - ID: 1586564, HTML + CSS Developer</li>
+              <li><strong>Luca van der Wijngaart</strong> - ID: 1565923, HTML + CSS Developer</li>
+            </ul>
+            We created this web application to make data exploration
+            easier and more accessible. The website is modern, easy to
+            navigate and allows for both testing the product for fun and using it to explore your personal data set.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div>
+          <p class="foot-par">
+              <strong>GO TO</strong>
+          </p>
+      </div>
+      <div>
+        <ul class="foot-list">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/sources">Sources</a></li>
+          <li><a href="/about">Top</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
